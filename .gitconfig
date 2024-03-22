@@ -1,0 +1,9 @@
+[user]
+        email = howard.431@wright.edu
+        name = jhoward08
+[pull]
+        rebase = false
+[core]
+        editor = vim
+[help]
+        autocorrect = 20
