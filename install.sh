@@ -120,13 +120,9 @@ if [[ "$(id -u)" -eq 0 ]]; then
 		echo "/home/$ME/ceg2410s24-jhoward08/configure.sh" >> /home/$ME/ceg2410s24-jhoward08/DotFiles/.gitignore
 		echo 'alias ls="ls -lah"' >> /home/$ME/.bashrc
 		echo 'alias rm="rm -i"' >> /home/$ME/.bashrc
-<<<<<<< HEAD
 		ssh_setup
 		vim_setup
 		chown -R $ME:root "/home/$ME/anaconda3"
-=======
-                chown -R $ME:root "/home/$ME/anaconda3"
->>>>>>> a4b7a01bd94e69bb706a35ce1c69e5ade6ded2b4
 		chown -R $ME:root "/home/$ME/aws"
 	else
 		echo "apt is not installed at the specified location."
